@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/scificar_albedo.png-1d36d7ca658dd6323b3d460513911157.s3tc.stex"
+path.etc2="res://.import/scificar_albedo.png-1d36d7ca658dd6323b3d460513911157.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/car/scificar_albedo.png"
-dest_files=[ "res://.import/scificar_albedo.png-1d36d7ca658dd6323b3d460513911157.s3tc.stex" ]
+dest_files=[ "res://.import/scificar_albedo.png-1d36d7ca658dd6323b3d460513911157.s3tc.stex", "res://.import/scificar_albedo.png-1d36d7ca658dd6323b3d460513911157.etc2.stex" ]
 
 [params]
 

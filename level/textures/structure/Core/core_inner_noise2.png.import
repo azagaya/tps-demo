@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/core_inner_noise2.png-412234ab4a09264120010811f25fa529.s3tc.stex"
+path.etc2="res://.import/core_inner_noise2.png-412234ab4a09264120010811f25fa529.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/Core/core_inner_noise2.png"
-dest_files=[ "res://.import/core_inner_noise2.png-412234ab4a09264120010811f25fa529.s3tc.stex" ]
+dest_files=[ "res://.import/core_inner_noise2.png-412234ab4a09264120010811f25fa529.s3tc.stex", "res://.import/core_inner_noise2.png-412234ab4a09264120010811f25fa529.etc2.stex" ]
 
 [params]
 

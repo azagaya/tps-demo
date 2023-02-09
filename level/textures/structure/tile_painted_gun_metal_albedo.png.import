@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/tile_painted_gun_metal_albedo.png-cc352924b7467cf8b4b19ed1257d1625.s3tc.stex"
+path.etc2="res://.import/tile_painted_gun_metal_albedo.png-cc352924b7467cf8b4b19ed1257d1625.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/tile_painted_gun_metal_albedo.png"
-dest_files=[ "res://.import/tile_painted_gun_metal_albedo.png-cc352924b7467cf8b4b19ed1257d1625.s3tc.stex" ]
+dest_files=[ "res://.import/tile_painted_gun_metal_albedo.png-cc352924b7467cf8b4b19ed1257d1625.s3tc.stex", "res://.import/tile_painted_gun_metal_albedo.png-cc352924b7467cf8b4b19ed1257d1625.etc2.stex" ]
 
 [params]
 

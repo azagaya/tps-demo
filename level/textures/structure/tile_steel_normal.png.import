@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/tile_steel_normal.png-07e351939dc92f525c5a21c4e7ddf8fa.s3tc.stex"
+path.etc2="res://.import/tile_steel_normal.png-07e351939dc92f525c5a21c4e7ddf8fa.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/tile_steel_normal.png"
-dest_files=[ "res://.import/tile_steel_normal.png-07e351939dc92f525c5a21c4e7ddf8fa.s3tc.stex" ]
+dest_files=[ "res://.import/tile_steel_normal.png-07e351939dc92f525c5a21c4e7ddf8fa.s3tc.stex", "res://.import/tile_steel_normal.png-07e351939dc92f525c5a21c4e7ddf8fa.etc2.stex" ]
 
 [params]
 

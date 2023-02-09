@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/red_robot_albedo.png-3103b491cfc86d48b876d956b7279012.s3tc.stex"
+path.etc2="res://.import/red_robot_albedo.png-3103b491cfc86d48b876d956b7279012.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://enemies/red_robot/textures/red_robot_albedo.png"
-dest_files=[ "res://.import/red_robot_albedo.png-3103b491cfc86d48b876d956b7279012.s3tc.stex" ]
+dest_files=[ "res://.import/red_robot_albedo.png-3103b491cfc86d48b876d956b7279012.s3tc.stex", "res://.import/red_robot_albedo.png-3103b491cfc86d48b876d956b7279012.etc2.stex" ]
 
 [params]
 

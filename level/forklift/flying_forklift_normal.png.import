@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/flying_forklift_normal.png-8678bac746720ee9d56e90fba91f5e6c.s3tc.stex"
+path.etc2="res://.import/flying_forklift_normal.png-8678bac746720ee9d56e90fba91f5e6c.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/forklift/flying_forklift_normal.png"
-dest_files=[ "res://.import/flying_forklift_normal.png-8678bac746720ee9d56e90fba91f5e6c.s3tc.stex" ]
+dest_files=[ "res://.import/flying_forklift_normal.png-8678bac746720ee9d56e90fba91f5e6c.s3tc.stex", "res://.import/flying_forklift_normal.png-8678bac746720ee9d56e90fba91f5e6c.etc2.stex" ]
 
 [params]
 

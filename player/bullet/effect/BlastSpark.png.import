@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/BlastSpark.png-2f5109762f7b1d007f7e7777ba6f3d1e.s3tc.stex"
+path.etc2="res://.import/BlastSpark.png-2f5109762f7b1d007f7e7777ba6f3d1e.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://player/bullet/effect/BlastSpark.png"
-dest_files=[ "res://.import/BlastSpark.png-2f5109762f7b1d007f7e7777ba6f3d1e.s3tc.stex" ]
+dest_files=[ "res://.import/BlastSpark.png-2f5109762f7b1d007f7e7777ba6f3d1e.s3tc.stex", "res://.import/BlastSpark.png-2f5109762f7b1d007f7e7777ba6f3d1e.etc2.stex" ]
 
 [params]
 

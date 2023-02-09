@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/light_shafts.png-7bf7b75ffc6e9552229cab1850001e61.s3tc.stex"
+path.etc2="res://.import/light_shafts.png-7bf7b75ffc6e9552229cab1850001e61.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/light_shafts.png"
-dest_files=[ "res://.import/light_shafts.png-7bf7b75ffc6e9552229cab1850001e61.s3tc.stex" ]
+dest_files=[ "res://.import/light_shafts.png-7bf7b75ffc6e9552229cab1850001e61.s3tc.stex", "res://.import/light_shafts.png-7bf7b75ffc6e9552229cab1850001e61.etc2.stex" ]
 
 [params]
 

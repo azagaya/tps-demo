@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/core_out_light.png-b289287c4925ebf2f3d3d8ee47b38a00.s3tc.stex"
+path.etc2="res://.import/core_out_light.png-b289287c4925ebf2f3d3d8ee47b38a00.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/Core/core_out_light.png"
-dest_files=[ "res://.import/core_out_light.png-b289287c4925ebf2f3d3d8ee47b38a00.s3tc.stex" ]
+dest_files=[ "res://.import/core_out_light.png-b289287c4925ebf2f3d3d8ee47b38a00.s3tc.stex", "res://.import/core_out_light.png-b289287c4925ebf2f3d3d8ee47b38a00.etc2.stex" ]
 
 [params]
 

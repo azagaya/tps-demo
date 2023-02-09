@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/SmokePuff.png-af2021767790862f90e883c3b7e55925.s3tc.stex"
+path.etc2="res://.import/SmokePuff.png-af2021767790862f90e883c3b7e55925.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://enemies/red_robot/laser/impact_effect/SmokePuff.png"
-dest_files=[ "res://.import/SmokePuff.png-af2021767790862f90e883c3b7e55925.s3tc.stex" ]
+dest_files=[ "res://.import/SmokePuff.png-af2021767790862f90e883c3b7e55925.s3tc.stex", "res://.import/SmokePuff.png-af2021767790862f90e883c3b7e55925.etc2.stex" ]
 
 [params]
 

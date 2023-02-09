@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/tile_anti_slip_albedo.png-c56743195a407a9008c9d571982f55a4.s3tc.stex"
+path.etc2="res://.import/tile_anti_slip_albedo.png-c56743195a407a9008c9d571982f55a4.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/tile_anti_slip_albedo.png"
-dest_files=[ "res://.import/tile_anti_slip_albedo.png-c56743195a407a9008c9d571982f55a4.s3tc.stex" ]
+dest_files=[ "res://.import/tile_anti_slip_albedo.png-c56743195a407a9008c9d571982f55a4.s3tc.stex", "res://.import/tile_anti_slip_albedo.png-c56743195a407a9008c9d571982f55a4.etc2.stex" ]
 
 [params]
 

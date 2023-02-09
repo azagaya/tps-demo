@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/train_texture_normal.png-e93d3d6bce220515d8e445015f382f7a.s3tc.stex"
+path.etc2="res://.import/train_texture_normal.png-e93d3d6bce220515d8e445015f382f7a.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/train_texture_normal.png"
-dest_files=[ "res://.import/train_texture_normal.png-e93d3d6bce220515d8e445015f382f7a.s3tc.stex" ]
+dest_files=[ "res://.import/train_texture_normal.png-e93d3d6bce220515d8e445015f382f7a.s3tc.stex", "res://.import/train_texture_normal.png-e93d3d6bce220515d8e445015f382f7a.etc2.stex" ]
 
 [params]
 

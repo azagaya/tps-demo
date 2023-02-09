@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/container2_albedo.png-60177dcb62d67a889d8ac19abe1391fe.s3tc.stex"
+path.etc2="res://.import/container2_albedo.png-60177dcb62d67a889d8ac19abe1391fe.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/props/container2_albedo.png"
-dest_files=[ "res://.import/container2_albedo.png-60177dcb62d67a889d8ac19abe1391fe.s3tc.stex" ]
+dest_files=[ "res://.import/container2_albedo.png-60177dcb62d67a889d8ac19abe1391fe.s3tc.stex", "res://.import/container2_albedo.png-60177dcb62d67a889d8ac19abe1391fe.etc2.stex" ]
 
 [params]
 

@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/mid_cargo_box_normal.png-2a9d48b87dd7bc98ee16afb84c1b77e8.s3tc.stex"
+path.etc2="res://.import/mid_cargo_box_normal.png-2a9d48b87dd7bc98ee16afb84c1b77e8.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/props/mid_cargo_box_normal.png"
-dest_files=[ "res://.import/mid_cargo_box_normal.png-2a9d48b87dd7bc98ee16afb84c1b77e8.s3tc.stex" ]
+dest_files=[ "res://.import/mid_cargo_box_normal.png-2a9d48b87dd7bc98ee16afb84c1b77e8.s3tc.stex", "res://.import/mid_cargo_box_normal.png-2a9d48b87dd7bc98ee16afb84c1b77e8.etc2.stex" ]
 
 [params]
 

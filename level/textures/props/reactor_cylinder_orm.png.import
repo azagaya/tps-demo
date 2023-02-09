@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/reactor_cylinder_orm.png-66fbc6a99f69e4bcded6ff4c9a571bcf.s3tc.stex"
+path.etc2="res://.import/reactor_cylinder_orm.png-66fbc6a99f69e4bcded6ff4c9a571bcf.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/props/reactor_cylinder_orm.png"
-dest_files=[ "res://.import/reactor_cylinder_orm.png-66fbc6a99f69e4bcded6ff4c9a571bcf.s3tc.stex" ]
+dest_files=[ "res://.import/reactor_cylinder_orm.png-66fbc6a99f69e4bcded6ff4c9a571bcf.s3tc.stex", "res://.import/reactor_cylinder_orm.png-66fbc6a99f69e4bcded6ff4c9a571bcf.etc2.stex" ]
 
 [params]
 

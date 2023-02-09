@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/player_robot_albedo.png-29da2957acb915dc487a38c68ee5e45b.s3tc.stex"
+path.etc2="res://.import/player_robot_albedo.png-29da2957acb915dc487a38c68ee5e45b.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://player/textures/player_robot_albedo.png"
-dest_files=[ "res://.import/player_robot_albedo.png-29da2957acb915dc487a38c68ee5e45b.s3tc.stex" ]
+dest_files=[ "res://.import/player_robot_albedo.png-29da2957acb915dc487a38c68ee5e45b.s3tc.stex", "res://.import/player_robot_albedo.png-29da2957acb915dc487a38c68ee5e45b.etc2.stex" ]
 
 [params]
 

@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/door_albedo.png-01f58275ec4bf37cd8e1a048ffbaf461.s3tc.stex"
+path.etc2="res://.import/door_albedo.png-01f58275ec4bf37cd8e1a048ffbaf461.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/props/door_albedo.png"
-dest_files=[ "res://.import/door_albedo.png-01f58275ec4bf37cd8e1a048ffbaf461.s3tc.stex" ]
+dest_files=[ "res://.import/door_albedo.png-01f58275ec4bf37cd8e1a048ffbaf461.s3tc.stex", "res://.import/door_albedo.png-01f58275ec4bf37cd8e1a048ffbaf461.etc2.stex" ]
 
 [params]
 

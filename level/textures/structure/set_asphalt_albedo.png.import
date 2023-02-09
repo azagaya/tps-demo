@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/set_asphalt_albedo.png-0e8cb74433f4dbf8b7fc5817bf7d82b1.s3tc.stex"
+path.etc2="res://.import/set_asphalt_albedo.png-0e8cb74433f4dbf8b7fc5817bf7d82b1.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/set_asphalt_albedo.png"
-dest_files=[ "res://.import/set_asphalt_albedo.png-0e8cb74433f4dbf8b7fc5817bf7d82b1.s3tc.stex" ]
+dest_files=[ "res://.import/set_asphalt_albedo.png-0e8cb74433f4dbf8b7fc5817bf7d82b1.s3tc.stex", "res://.import/set_asphalt_albedo.png-0e8cb74433f4dbf8b7fc5817bf7d82b1.etc2.stex" ]
 
 [params]
 

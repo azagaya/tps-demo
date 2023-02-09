@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/SparkTexture.png-415eb9635d794f1148d998613e1e2ac9.s3tc.stex"
+path.etc2="res://.import/SparkTexture.png-415eb9635d794f1148d998613e1e2ac9.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://enemies/red_robot/parts/sparks_effect/SparkTexture.png"
-dest_files=[ "res://.import/SparkTexture.png-415eb9635d794f1148d998613e1e2ac9.s3tc.stex" ]
+dest_files=[ "res://.import/SparkTexture.png-415eb9635d794f1148d998613e1e2ac9.s3tc.stex", "res://.import/SparkTexture.png-415eb9635d794f1148d998613e1e2ac9.etc2.stex" ]
 
 [params]
 

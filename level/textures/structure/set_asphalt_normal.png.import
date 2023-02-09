@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/set_asphalt_normal.png-192f06ab6dd6a4e8cd158e3afe42e86e.s3tc.stex"
+path.etc2="res://.import/set_asphalt_normal.png-192f06ab6dd6a4e8cd158e3afe42e86e.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/set_asphalt_normal.png"
-dest_files=[ "res://.import/set_asphalt_normal.png-192f06ab6dd6a4e8cd158e3afe42e86e.s3tc.stex" ]
+dest_files=[ "res://.import/set_asphalt_normal.png-192f06ab6dd6a4e8cd158e3afe42e86e.s3tc.stex", "res://.import/set_asphalt_normal.png-192f06ab6dd6a4e8cd158e3afe42e86e.etc2.stex" ]
 
 [params]
 

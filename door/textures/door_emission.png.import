@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/door_emission.png-5f79af2ba84b63e33a9cd4e6a725951c.s3tc.stex"
+path.etc2="res://.import/door_emission.png-5f79af2ba84b63e33a9cd4e6a725951c.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://door/textures/door_emission.png"
-dest_files=[ "res://.import/door_emission.png-5f79af2ba84b63e33a9cd4e6a725951c.s3tc.stex" ]
+dest_files=[ "res://.import/door_emission.png-5f79af2ba84b63e33a9cd4e6a725951c.s3tc.stex", "res://.import/door_emission.png-5f79af2ba84b63e33a9cd4e6a725951c.etc2.stex" ]
 
 [params]
 

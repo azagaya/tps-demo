@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/tile_scifi_floor_panel_orm.png-1f7abaad7fb4c099c3a37dca16f68f90.s3tc.stex"
+path.etc2="res://.import/tile_scifi_floor_panel_orm.png-1f7abaad7fb4c099c3a37dca16f68f90.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/tile_scifi_floor_panel_orm.png"
-dest_files=[ "res://.import/tile_scifi_floor_panel_orm.png-1f7abaad7fb4c099c3a37dca16f68f90.s3tc.stex" ]
+dest_files=[ "res://.import/tile_scifi_floor_panel_orm.png-1f7abaad7fb4c099c3a37dca16f68f90.s3tc.stex", "res://.import/tile_scifi_floor_panel_orm.png-1f7abaad7fb4c099c3a37dca16f68f90.etc2.stex" ]
 
 [params]
 

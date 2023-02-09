@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/dot.png-b13d3a041fb776c50b0b47383bc5ed3a.s3tc.stex"
+path.etc2="res://.import/dot.png-b13d3a041fb776c50b0b47383bc5ed3a.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/forklift/dot.png"
-dest_files=[ "res://.import/dot.png-b13d3a041fb776c50b0b47383bc5ed3a.s3tc.stex" ]
+dest_files=[ "res://.import/dot.png-b13d3a041fb776c50b0b47383bc5ed3a.s3tc.stex", "res://.import/dot.png-b13d3a041fb776c50b0b47383bc5ed3a.etc2.stex" ]
 
 [params]
 

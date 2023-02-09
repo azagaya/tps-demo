@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/tile_rivet_panels_orm.png-29366803b45bfbde3a777a5a42035f12.s3tc.stex"
+path.etc2="res://.import/tile_rivet_panels_orm.png-29366803b45bfbde3a777a5a42035f12.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/tile_rivet_panels_orm.png"
-dest_files=[ "res://.import/tile_rivet_panels_orm.png-29366803b45bfbde3a777a5a42035f12.s3tc.stex" ]
+dest_files=[ "res://.import/tile_rivet_panels_orm.png-29366803b45bfbde3a777a5a42035f12.s3tc.stex", "res://.import/tile_rivet_panels_orm.png-29366803b45bfbde3a777a5a42035f12.etc2.stex" ]
 
 [params]
 

@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/train_texture_albedo.png-794cc5ded8478ff387564f4a854493b3.s3tc.stex"
+path.etc2="res://.import/train_texture_albedo.png-794cc5ded8478ff387564f4a854493b3.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/train_texture_albedo.png"
-dest_files=[ "res://.import/train_texture_albedo.png-794cc5ded8478ff387564f4a854493b3.s3tc.stex" ]
+dest_files=[ "res://.import/train_texture_albedo.png-794cc5ded8478ff387564f4a854493b3.s3tc.stex", "res://.import/train_texture_albedo.png-794cc5ded8478ff387564f4a854493b3.etc2.stex" ]
 
 [params]
 

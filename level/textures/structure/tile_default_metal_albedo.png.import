@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/tile_default_metal_albedo.png-624ac4460101abe8b75d9f9c403f0771.s3tc.stex"
+path.etc2="res://.import/tile_default_metal_albedo.png-624ac4460101abe8b75d9f9c403f0771.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/tile_default_metal_albedo.png"
-dest_files=[ "res://.import/tile_default_metal_albedo.png-624ac4460101abe8b75d9f9c403f0771.s3tc.stex" ]
+dest_files=[ "res://.import/tile_default_metal_albedo.png-624ac4460101abe8b75d9f9c403f0771.s3tc.stex", "res://.import/tile_default_metal_albedo.png-624ac4460101abe8b75d9f9c403f0771.etc2.stex" ]
 
 [params]
 

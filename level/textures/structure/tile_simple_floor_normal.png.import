@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/tile_simple_floor_normal.png-bc7a1277afc761bdf1d598ef8371da1d.s3tc.stex"
+path.etc2="res://.import/tile_simple_floor_normal.png-bc7a1277afc761bdf1d598ef8371da1d.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/tile_simple_floor_normal.png"
-dest_files=[ "res://.import/tile_simple_floor_normal.png-bc7a1277afc761bdf1d598ef8371da1d.s3tc.stex" ]
+dest_files=[ "res://.import/tile_simple_floor_normal.png-bc7a1277afc761bdf1d598ef8371da1d.s3tc.stex", "res://.import/tile_simple_floor_normal.png-bc7a1277afc761bdf1d598ef8371da1d.etc2.stex" ]
 
 [params]
 

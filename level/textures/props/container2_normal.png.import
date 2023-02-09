@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/container2_normal.png-3d18ddf814fbbec0295ddf3509589048.s3tc.stex"
+path.etc2="res://.import/container2_normal.png-3d18ddf814fbbec0295ddf3509589048.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/props/container2_normal.png"
-dest_files=[ "res://.import/container2_normal.png-3d18ddf814fbbec0295ddf3509589048.s3tc.stex" ]
+dest_files=[ "res://.import/container2_normal.png-3d18ddf814fbbec0295ddf3509589048.s3tc.stex", "res://.import/container2_normal.png-3d18ddf814fbbec0295ddf3509589048.etc2.stex" ]
 
 [params]
 

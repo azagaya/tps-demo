@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/reactor_cylinder_albedo.png-1b5174883b9d1d796026653d5ce03e2e.s3tc.stex"
+path.etc2="res://.import/reactor_cylinder_albedo.png-1b5174883b9d1d796026653d5ce03e2e.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/props/reactor_cylinder_albedo.png"
-dest_files=[ "res://.import/reactor_cylinder_albedo.png-1b5174883b9d1d796026653d5ce03e2e.s3tc.stex" ]
+dest_files=[ "res://.import/reactor_cylinder_albedo.png-1b5174883b9d1d796026653d5ce03e2e.s3tc.stex", "res://.import/reactor_cylinder_albedo.png-1b5174883b9d1d796026653d5ce03e2e.etc2.stex" ]
 
 [params]
 

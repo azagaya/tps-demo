@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/plasma.png-6d59facfec6f6a5fd1f7e9f2f6b90a8f.s3tc.stex"
+path.etc2="res://.import/plasma.png-6d59facfec6f6a5fd1f7e9f2f6b90a8f.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/plasma.png"
-dest_files=[ "res://.import/plasma.png-6d59facfec6f6a5fd1f7e9f2f6b90a8f.s3tc.stex" ]
+dest_files=[ "res://.import/plasma.png-6d59facfec6f6a5fd1f7e9f2f6b90a8f.s3tc.stex", "res://.import/plasma.png-6d59facfec6f6a5fd1f7e9f2f6b90a8f.etc2.stex" ]
 
 [params]
 

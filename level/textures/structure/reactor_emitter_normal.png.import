@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/reactor_emitter_normal.png-8ac734afe4dd1a293794f2d8464e9095.s3tc.stex"
+path.etc2="res://.import/reactor_emitter_normal.png-8ac734afe4dd1a293794f2d8464e9095.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/reactor_emitter_normal.png"
-dest_files=[ "res://.import/reactor_emitter_normal.png-8ac734afe4dd1a293794f2d8464e9095.s3tc.stex" ]
+dest_files=[ "res://.import/reactor_emitter_normal.png-8ac734afe4dd1a293794f2d8464e9095.s3tc.stex", "res://.import/reactor_emitter_normal.png-8ac734afe4dd1a293794f2d8464e9095.etc2.stex" ]
 
 [params]
 

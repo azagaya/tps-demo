@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/LightRays.png-6ea2289055a4cb601788902fdea82c53.s3tc.stex"
+path.etc2="res://.import/LightRays.png-6ea2289055a4cb601788902fdea82c53.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://enemies/red_robot/laser/impact_effect/LightRays.png"
-dest_files=[ "res://.import/LightRays.png-6ea2289055a4cb601788902fdea82c53.s3tc.stex" ]
+dest_files=[ "res://.import/LightRays.png-6ea2289055a4cb601788902fdea82c53.s3tc.stex", "res://.import/LightRays.png-6ea2289055a4cb601788902fdea82c53.etc2.stex" ]
 
 [params]
 

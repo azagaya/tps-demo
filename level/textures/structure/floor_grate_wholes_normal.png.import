@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/floor_grate_wholes_normal.png-7148d5522111aeaae4c49e4e9bdfb1d7.s3tc.stex"
+path.etc2="res://.import/floor_grate_wholes_normal.png-7148d5522111aeaae4c49e4e9bdfb1d7.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/floor_grate_wholes_normal.png"
-dest_files=[ "res://.import/floor_grate_wholes_normal.png-7148d5522111aeaae4c49e4e9bdfb1d7.s3tc.stex" ]
+dest_files=[ "res://.import/floor_grate_wholes_normal.png-7148d5522111aeaae4c49e4e9bdfb1d7.s3tc.stex", "res://.import/floor_grate_wholes_normal.png-7148d5522111aeaae4c49e4e9bdfb1d7.etc2.stex" ]
 
 [params]
 

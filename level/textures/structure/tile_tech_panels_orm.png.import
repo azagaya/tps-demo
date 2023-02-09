@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/tile_tech_panels_orm.png-b6075003349ca8fb541f734aa12eefe7.s3tc.stex"
+path.etc2="res://.import/tile_tech_panels_orm.png-b6075003349ca8fb541f734aa12eefe7.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/tile_tech_panels_orm.png"
-dest_files=[ "res://.import/tile_tech_panels_orm.png-b6075003349ca8fb541f734aa12eefe7.s3tc.stex" ]
+dest_files=[ "res://.import/tile_tech_panels_orm.png-b6075003349ca8fb541f734aa12eefe7.s3tc.stex", "res://.import/tile_tech_panels_orm.png-b6075003349ca8fb541f734aa12eefe7.etc2.stex" ]
 
 [params]
 

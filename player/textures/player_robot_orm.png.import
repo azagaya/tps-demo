@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/player_robot_orm.png-e02b1e5fa1f39801d9d122d5a4483681.s3tc.stex"
+path.etc2="res://.import/player_robot_orm.png-e02b1e5fa1f39801d9d122d5a4483681.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://player/textures/player_robot_orm.png"
-dest_files=[ "res://.import/player_robot_orm.png-e02b1e5fa1f39801d9d122d5a4483681.s3tc.stex" ]
+dest_files=[ "res://.import/player_robot_orm.png-e02b1e5fa1f39801d9d122d5a4483681.s3tc.stex", "res://.import/player_robot_orm.png-e02b1e5fa1f39801d9d122d5a4483681.etc2.stex" ]
 
 [params]
 

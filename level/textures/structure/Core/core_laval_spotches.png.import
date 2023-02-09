@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/core_laval_spotches.png-27d82a2740be5cb8d17c556f9fa2855d.s3tc.stex"
+path.etc2="res://.import/core_laval_spotches.png-27d82a2740be5cb8d17c556f9fa2855d.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/Core/core_laval_spotches.png"
-dest_files=[ "res://.import/core_laval_spotches.png-27d82a2740be5cb8d17c556f9fa2855d.s3tc.stex" ]
+dest_files=[ "res://.import/core_laval_spotches.png-27d82a2740be5cb8d17c556f9fa2855d.s3tc.stex", "res://.import/core_laval_spotches.png-27d82a2740be5cb8d17c556f9fa2855d.etc2.stex" ]
 
 [params]
 

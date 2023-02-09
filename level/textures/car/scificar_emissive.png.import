@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/scificar_emissive.png-2f5a21704c8a8fe55003de19662a74b5.s3tc.stex"
+path.etc2="res://.import/scificar_emissive.png-2f5a21704c8a8fe55003de19662a74b5.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/car/scificar_emissive.png"
-dest_files=[ "res://.import/scificar_emissive.png-2f5a21704c8a8fe55003de19662a74b5.s3tc.stex" ]
+dest_files=[ "res://.import/scificar_emissive.png-2f5a21704c8a8fe55003de19662a74b5.s3tc.stex", "res://.import/scificar_emissive.png-2f5a21704c8a8fe55003de19662a74b5.etc2.stex" ]
 
 [params]
 

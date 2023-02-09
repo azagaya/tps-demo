@@ -3,15 +3,16 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/tile_metal_pillars_normal.png-2c058eb02fbcaa53ba3ba8563d6dbd75.s3tc.stex"
+path.etc2="res://.import/tile_metal_pillars_normal.png-2c058eb02fbcaa53ba3ba8563d6dbd75.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc" ],
+"imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://level/textures/structure/tile_metal_pillars_normal.png"
-dest_files=[ "res://.import/tile_metal_pillars_normal.png-2c058eb02fbcaa53ba3ba8563d6dbd75.s3tc.stex" ]
+dest_files=[ "res://.import/tile_metal_pillars_normal.png-2c058eb02fbcaa53ba3ba8563d6dbd75.s3tc.stex", "res://.import/tile_metal_pillars_normal.png-2c058eb02fbcaa53ba3ba8563d6dbd75.etc2.stex" ]
 
 [params]
 
