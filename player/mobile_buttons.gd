@@ -66,3 +66,11 @@ func _on_Camera_released():
 	Input.action_release("view_left")
 	Input.action_release("view_right")
 	Input.action_release("view_down")
+
+
+func _on_Analog_pressed():
+	pass # Replace with function body.
+
+
+func _on_Camera_pressed():
+	pass # Replace with function body.

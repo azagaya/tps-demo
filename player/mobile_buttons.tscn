@@ -90,5 +90,7 @@ mouse_filter = 2
 [connection signal="released" from="Control/JumpButton" to="." method="_on_JumpButton_released"]
 [connection signal="pressed" from="Control2/AimButton" to="." method="_on_AimButton_pressed"]
 [connection signal="released" from="Control2/AimButton" to="." method="_on_AimButton_released"]
+[connection signal="pressed" from="Control3/Analog" to="." method="_on_Analog_pressed"]
 [connection signal="released" from="Control3/Analog" to="." method="_on_Analog_released"]
+[connection signal="pressed" from="Camera/Camera" to="." method="_on_Camera_pressed"]
 [connection signal="released" from="Camera/Camera" to="." method="_on_Camera_released"]
