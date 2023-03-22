@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=2]
+[gd_scene load_steps=57 format=2]
 
 [ext_resource path="res://player/player.gd" type="Script" id=1]
 [ext_resource path="res://player/model/player.glb" type="PackedScene" id=2]
@@ -11,7 +11,8 @@
 [ext_resource path="res://player/bullet/bullet_material.tres" type="Material" id=9]
 [ext_resource path="res://player/model/muzzle_flash_particle_mesh_Cone.mesh" type="ArrayMesh" id=10]
 [ext_resource path="res://player/bullet/effect/FlarePolar.png" type="Texture" id=11]
-[ext_resource path="res://player/mobile_buttons.tscn" type="PackedScene" id=12]
+[ext_resource path="res://player/hud.png" type="Texture" id=12]
+[ext_resource path="res://player/MobileButtons.gd" type="Script" id=13]
 
 [sub_resource type="ParticlesMaterial" id=1]
 flag_align_y = true
@@ -206,7 +207,7 @@ nodes/walk/node = SubResource( 29 )
 nodes/walk/position = Vector2( -460, 40 )
 nodes/walk_speed/node = SubResource( 36 )
 nodes/walk_speed/position = Vector2( -280, 60 )
-node_connections = [ "state", 0, "strafe_speed", "state", 1, "walk_speed", "state", 2, "jumpup", "state", 3, "jumpdown", "output", 0, "eye_blend", "aim", 0, "aimdown", "aim", 1, "land", "aim", 2, "aimup", "eye_blend", 0, "aim", "eye_blend", 1, "eyes", "land", 0, "state", "land", 1, "hardland", "strafe_speed", 0, "strafe", "walk_speed", 0, "walk" ]
+node_connections = [ "state", 0, "strafe_speed", "state", 1, "walk_speed", "state", 2, "jumpup", "state", 3, "jumpdown", "output", 0, "eye_blend", "strafe_speed", 0, "strafe", "land", 0, "state", "land", 1, "hardland", "eye_blend", 0, "aim", "eye_blend", 1, "eyes", "aim", 0, "aimdown", "aim", 1, "land", "aim", 2, "aimup", "walk_speed", 0, "walk" ]
 
 [sub_resource type="CapsuleShape" id=31]
 radius = 0.5
@@ -269,6 +270,34 @@ tracks/1/keys = {
 [sub_resource type="AudioStreamRandomPitch" id=35]
 audio_stream = ExtResource( 7 )
 
+[sub_resource type="AtlasTexture" id=43]
+flags = 13
+atlas = ExtResource( 12 )
+region = Rect2( 9, 9, 175, 175 )
+
+[sub_resource type="AtlasTexture" id=44]
+flags = 13
+atlas = ExtResource( 12 )
+region = Rect2( 234, 6, 181, 180 )
+
+[sub_resource type="CircleShape2D" id=48]
+radius = 80.0
+
+[sub_resource type="AtlasTexture" id=45]
+flags = 13
+atlas = ExtResource( 12 )
+region = Rect2( 9, 223, 175, 175 )
+
+[sub_resource type="AtlasTexture" id=46]
+flags = 13
+atlas = ExtResource( 12 )
+region = Rect2( 234, 220, 181, 181 )
+
+[sub_resource type="AtlasTexture" id=47]
+flags = 13
+atlas = ExtResource( 12 )
+region = Rect2( 212, 441, 175, 175 )
+
 [node name="Player" type="KinematicBody"]
 collision_layer = 6
 collision_mask = 7
@@ -279,8 +308,11 @@ script = ExtResource( 1 )
 [node name="Robot_Skeleton" parent="PlayerModel" index="0"]
 transform = Transform( 0.803991, 0, 0, 0, 0.803991, 0, 0, 0, 0.803991, 0, 0, 0 )
 
+[node name="Skeleton" parent="PlayerModel/Robot_Skeleton" index="0"]
+bones/55/bound_children = [ NodePath("GunBone") ]
+
 [node name="GunBone" type="BoneAttachment" parent="PlayerModel/Robot_Skeleton/Skeleton" index="5"]
-transform = Transform( 0.923041, -0.382812, -0.0408402, -0.0227531, 0.0516679, -0.998412, 0.384359, 0.922381, 0.038977, -0.205774, 1.38116, 0.510195 )
+transform = Transform( 0.91727, -0.398115, -0.0182765, -0.0174158, 0.00578665, -0.999839, 0.398203, 0.917318, -0.0016245, -0.207091, 1.36329, 0.546934 )
 bone_name = "hand.R"
 
 [node name="ShootFrom" type="Position3D" parent="PlayerModel/Robot_Skeleton/Skeleton/GunBone"]
@@ -404,6 +436,62 @@ wait_time = 0.4
 one_shot = true
 autostart = true
 
-[node name="MobileButtons" parent="." instance=ExtResource( 12 )]
+[node name="MobileButtons" type="CanvasLayer" parent="."]
+script = ExtResource( 13 )
+
+[node name="Control" type="Control" parent="MobileButtons"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -320.0
+margin_top = -232.0
+margin_right = -280.0
+margin_bottom = -192.0
+
+[node name="JumpButton" type="TouchScreenButton" parent="MobileButtons/Control" groups=["HUD"]]
+normal = SubResource( 43 )
+pressed = SubResource( 44 )
+shape = SubResource( 48 )
+
+[node name="Control2" type="Control" parent="MobileButtons"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -192.0
+margin_top = -400.0
+margin_right = -152.0
+margin_bottom = -360.0
+
+[node name="AimButton" type="TouchScreenButton" parent="MobileButtons/Control2" groups=["HUD"]]
+normal = SubResource( 45 )
+pressed = SubResource( 46 )
+shape = SubResource( 48 )
+
+[node name="Control3" type="Control" parent="MobileButtons"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 64.0
+margin_top = -248.0
+margin_right = 104.0
+margin_bottom = -208.0
+
+[node name="Analog" type="TouchScreenButton" parent="MobileButtons/Control3"]
+normal = SubResource( 47 )
+shape = SubResource( 48 )
+
+[node name="Sprite" type="Sprite" parent="MobileButtons/Control3/Analog"]
+position = Vector2( 87, 87 )
+texture = ExtResource( 12 )
+region_enabled = true
+region_rect = Rect2( 57, 490, 78, 78 )
+
+[connection signal="pressed" from="MobileButtons/Control/JumpButton" to="MobileButtons" method="_on_JumpButton_pressed"]
+[connection signal="released" from="MobileButtons/Control/JumpButton" to="MobileButtons" method="_on_JumpButton_released"]
+[connection signal="pressed" from="MobileButtons/Control2/AimButton" to="MobileButtons" method="_on_AimButton_pressed"]
+[connection signal="released" from="MobileButtons/Control2/AimButton" to="MobileButtons" method="_on_AimButton_released"]
+[connection signal="pressed" from="MobileButtons/Control3/Analog" to="MobileButtons" method="_on_Analog_pressed"]
+[connection signal="released" from="MobileButtons/Control3/Analog" to="MobileButtons" method="_on_Analog_released"]
 
 [editable path="PlayerModel"]
