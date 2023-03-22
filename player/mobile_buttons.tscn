@@ -1,0 +1,94 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://player/mobile_buttons.gd" type="Script" id=1]
+[ext_resource path="res://player/hud.png" type="Texture" id=2]
+[ext_resource path="res://player/Analog.tscn" type="PackedScene" id=3]
+
+[sub_resource type="AtlasTexture" id=43]
+flags = 13
+atlas = ExtResource( 2 )
+region = Rect2( 9, 9, 175, 175 )
+
+[sub_resource type="AtlasTexture" id=44]
+flags = 13
+atlas = ExtResource( 2 )
+region = Rect2( 234, 6, 181, 180 )
+
+[sub_resource type="CircleShape2D" id=48]
+radius = 80.0
+
+[sub_resource type="AtlasTexture" id=45]
+flags = 13
+atlas = ExtResource( 2 )
+region = Rect2( 9, 223, 175, 175 )
+
+[sub_resource type="AtlasTexture" id=46]
+flags = 13
+atlas = ExtResource( 2 )
+region = Rect2( 234, 220, 181, 181 )
+
+[node name="MobileButtons" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="Control" type="Control" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -456.0
+margin_top = -352.0
+margin_right = -416.0
+margin_bottom = -312.0
+mouse_filter = 2
+
+[node name="JumpButton" type="TouchScreenButton" parent="Control" groups=["HUD"]]
+normal = SubResource( 43 )
+pressed = SubResource( 44 )
+shape = SubResource( 48 )
+
+[node name="Control2" type="Control" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -280.0
+margin_top = -448.0
+margin_right = -240.0
+margin_bottom = -408.0
+mouse_filter = 2
+
+[node name="AimButton" type="TouchScreenButton" parent="Control2" groups=["HUD"]]
+normal = SubResource( 45 )
+pressed = SubResource( 46 )
+shape = SubResource( 48 )
+
+[node name="Control3" type="Control" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 152.0
+margin_top = -304.0
+margin_right = 192.0
+margin_bottom = -264.0
+mouse_filter = 2
+
+[node name="Analog" parent="Control3" instance=ExtResource( 3 )]
+
+[node name="Camera" type="Control" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -288.0
+margin_top = -256.0
+margin_right = -248.0
+margin_bottom = -216.0
+mouse_filter = 2
+
+[node name="Camera" parent="Camera" instance=ExtResource( 3 )]
+
+[connection signal="pressed" from="Control/JumpButton" to="." method="_on_JumpButton_pressed"]
+[connection signal="released" from="Control/JumpButton" to="." method="_on_JumpButton_released"]
+[connection signal="pressed" from="Control2/AimButton" to="." method="_on_AimButton_pressed"]
+[connection signal="released" from="Control2/AimButton" to="." method="_on_AimButton_released"]
+[connection signal="released" from="Control3/Analog" to="." method="_on_Analog_released"]
+[connection signal="released" from="Camera/Camera" to="." method="_on_Camera_released"]

@@ -90,26 +90,27 @@ func _process(delta):
 
 
 func _physics_process(delta):
-	if is_mobile:
-		var magnet: Vector3 = Input.get_magnetometer()
-		var gravity: Vector3 = Input.get_gravity()
-		var pitch_acc = atan2(gravity.z, -gravity.y)
-		var yaw_magnet = atan2(-magnet.x, magnet.z)
-		
-		var gyroscope: Vector3 = Input.get_gyroscope()
-		pitch = lerp_angle(pitch_acc, pitch + gyroscope.x * delta, k)
-		yaw = lerp_angle(yaw_magnet, yaw + gyroscope.y * delta, k)
-		
-		camera_rot.rotation.x = clamp(-pitch, deg2rad(CAMERA_X_ROT_MIN), deg2rad(CAMERA_X_ROT_MAX))
-		camera_base.rotation.y = yaw
-	else:
-		var camera_move = Vector2(
-				Input.get_action_strength("view_right") - Input.get_action_strength("view_left"),
-				Input.get_action_strength("view_up") - Input.get_action_strength("view_down"))
-		var camera_speed_this_frame = delta * CAMERA_CONTROLLER_ROTATION_SPEED
-		if aiming:
-			camera_speed_this_frame *= 0.5
-		rotate_camera(camera_move * camera_speed_this_frame)
+#	if is_mobile:
+#		var magnet: Vector3 = Input.get_magnetometer()
+#		var gravity: Vector3 = Input.get_gravity()
+#		var pitch_acc = atan2(gravity.z, -gravity.y)
+#		var yaw_magnet = atan2(-magnet.x, magnet.z)
+#
+#		var gyroscope: Vector3 = Input.get_gyroscope()
+#		pitch = lerp_angle(pitch_acc, pitch + gyroscope.x * delta, k)
+#		yaw = lerp_angle(yaw_magnet, yaw + gyroscope.y * delta, k)
+#
+#		camera_rot.rotation.x = clamp(-pitch, deg2rad(CAMERA_X_ROT_MIN), deg2rad(CAMERA_X_ROT_MAX))
+#		camera_base.rotation.y = yaw
+
+#	else:
+	var camera_move = Vector2(
+			Input.get_action_strength("view_right") - Input.get_action_strength("view_left"),
+			Input.get_action_strength("view_up") - Input.get_action_strength("view_down"))
+	var camera_speed_this_frame = delta * CAMERA_CONTROLLER_ROTATION_SPEED
+	if aiming:
+		camera_speed_this_frame *= 0.5
+	rotate_camera(camera_move * camera_speed_this_frame)
 	var motion_target = Vector2(
 			Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 			Input.get_action_strength("move_back") - Input.get_action_strength("move_forward"))

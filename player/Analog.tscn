@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://player/hud.png" type="Texture" id=1]
+[ext_resource path="res://player/analog.gd" type="Script" id=2]
+
+[sub_resource type="AtlasTexture" id=47]
+flags = 13
+atlas = ExtResource( 1 )
+region = Rect2( 212, 441, 175, 175 )
+
+[sub_resource type="CircleShape2D" id=48]
+radius = 80.0
+
+[node name="Analog" type="TouchScreenButton"]
+normal = SubResource( 47 )
+shape = SubResource( 48 )
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 87, 87 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 57, 490, 78, 78 )
+
+[connection signal="pressed" from="." to="." method="_on_Analog_pressed"]
+[connection signal="released" from="." to="." method="_on_Analog_released"]
